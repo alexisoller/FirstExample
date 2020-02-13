@@ -6,8 +6,8 @@ public class Move_Sphere : MonoBehaviour {
     // Start is called before the first frame update
 
     public float speed;
-    private float mov = 0;
-    private bool izDer = false;
+    //private float mov = 0;
+    //private bool izDer = false;
     void Start() {
     }
     // Update is called once per frame
@@ -32,7 +32,7 @@ public class Move_Sphere : MonoBehaviour {
             speed=speed * -1;
         }
         else if (x < 0) {
-            speed = speed * -1;
+            speed=speed * -1;
         }
 
        // Debug.Log(x);
